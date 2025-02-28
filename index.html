@@ -262,8 +262,8 @@ document.getElementById('list').innerHTML = '<ul>' + output.join('') + '</ul>';
     }
 
       var view = new ol.View({
-          center: ol.proj.fromLonLat([-3.9500000, 40.89000000]),
-          zoom: 6
+          center: ol.proj.fromLonLat([-3.9500000, 39.7000000]),
+          zoom: 6.7
     });
     var sourceFeatures = new ol.source.Vector(),
     layerFeatures = new ol.layer.Vector({source: sourceFeatures});
@@ -837,7 +837,7 @@ new ol.layer.Tile({
             new ol.layer.Vector({
         visible: true,
         source: new ol.source.Vector({
-            url: 'https://gist.githubusercontent.com/nanoflojo/0dc13fc97fa11a3cf3903994eba052e0/raw/b5542a67378ae844f23f7588d3bb86a0cfa01e4a/FuentesAguaSept2021',
+            url: 'https://gist.githubusercontent.com/nanoflojo/3621967e03bb2031dbb4bb0e90fe3c6b/raw/7d96a28105c41716307712c84aafec40b618a3cd/FuentesAgua30Nov2024',
           format: new ol.format.GPX(),
         }),
 				title: "Fuentes",
